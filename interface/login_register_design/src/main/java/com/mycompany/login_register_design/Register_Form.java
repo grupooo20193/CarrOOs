@@ -11,7 +11,7 @@ package com.mycompany.login_register_design;
  *
  * @author guidine
  */
-public class Login_Form extends javax.swing.JFrame {
+public class Register_Form extends javax.swing.JFrame {
 
     /**
      * Creates new form Login_Form
@@ -19,7 +19,7 @@ public class Login_Form extends javax.swing.JFrame {
     
     
     
-    public Login_Form() {
+    public Register_Form() {
         initComponents();
     
     /**
@@ -38,8 +38,7 @@ public class Login_Form extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
         jButton6 = new javax.swing.JButton();
         jLabel4 = new javax.swing.JLabel();
-        jButton7 = new javax.swing.JButton();
-        jLabel5 = new javax.swing.JLabel();
+        jCheckBox1 = new javax.swing.JCheckBox();
         jButton8 = new javax.swing.JButton();
         jLabel6 = new javax.swing.JLabel();
         jPasswordField1 = new javax.swing.JPasswordField();
@@ -73,7 +72,7 @@ public class Login_Form extends javax.swing.JFrame {
 
         jButton1.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jButton1.setForeground(new java.awt.Color(27, 36, 49));
-        jButton1.setText("Entrar");
+        jButton1.setText("Registrar");
         jButton1.setToolTipText("");
         jButton1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, null, new java.awt.Color(204, 204, 204), null, null));
         jButton1.setBorderPainted(false);
@@ -107,22 +106,18 @@ public class Login_Form extends javax.swing.JFrame {
         jLabel4.setText("jLabel3");
         jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 280, 170, -1));
 
-        jButton7.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jButton7.setForeground(new java.awt.Color(27, 36, 49));
-        jButton7.setText("Esqueci minha senha!");
-        jButton7.setToolTipText("");
-        jButton7.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, null, new java.awt.Color(204, 204, 204), null, null));
-        jButton7.setBorderPainted(false);
-        jButton7.setContentAreaFilled(false);
-        jButton7.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBox1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jCheckBox1.setForeground(new java.awt.Color(204, 204, 204));
+        jCheckBox1.setText("Concordo com os Termos de Uso");
+        jCheckBox1.setActionCommand("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lacinia tellus quis sem placerat eleifend. Nunc venenatis nunc consectetur volutpat cursus. Cras sem turpis, pellentesque nec cursus vitae, accumsan eu libero. Duis eu condimentum est. Etiam velit mi, placerat vitae commodo cursus, facilisis nec urna. Nunc egestas ut ante vel blandit. In quis ullamcorper massa.\n\nMorbi tempor dolor in justo ornare, id eleifend libero sollicitudin. Aenean pellentesque lectus id augue molestie suscipit. Donec in massa ac lacus fringilla lacinia. Suspendisse maximus sapien lacus, sit amet interdum ex ullamcorper vel. In nisl odio, accumsan at ligula eu, placerat semper sapien. Donec at euismod ipsum, sed tristique mi. Cras facilisis augue et erat eleifend sollicitudin. Phasellus nisl velit, ultricies sed purus at, sagittis gravida dolor. In posuere lobortis sapien, vel vehicula sem tincidunt vitae. Donec ut sem sed urna ornare malesuada nec at neque. Nullam nec ligula feugiat, dictum tellus a, euismod tortor. Morbi nisl odio, vehicula at accumsan et, fringilla ut quam.\n\nDonec fringilla, sapien sit amet placerat venenatis, elit justo sodales lectus, non condimentum libero orci in ligula. Vivamus elementum rhoncus mauris in tincidunt. Donec lectus libero, scelerisque nec ligula at, fermentum feugiat magna. Curabitur eget cursus metus, sed pharetra risus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur sed sodales libero, eu sagittis mauris. Sed a lorem bibendum, mollis erat eu, consectetur risus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In rutrum suscipit volutpat. Sed porta tellus eu nunc sollicitudin tristique. Nulla orci lacus, faucibus non congue eu, porta in sem. Sed placerat pulvinar eros non semper. Suspendisse lacinia ipsum a felis tincidunt tincidunt. Nullam nec euismod tellus.\n\nIn vitae tempor purus. Ut sit amet metus diam. Morbi porttitor euismod odio, sit amet euismod risus. Sed in efficitur neque. In quam nunc, tincidunt ac commodo eu, aliquet sed est. Integer sed imperdiet arcu. Vestibulum sit amet mi tincidunt, pharetra dui vel, venenatis elit. Phasellus quis vulputate ipsum. Aenean viverra eros justo, vel interdum dui pretium vel. Sed nec turpis efficitur, imperdiet quam at, auctor libero. Etiam vitae mattis quam, quis pretium nunc.\n\nProin id tincidunt sem, ac scelerisque metus. Aenean nec libero sit amet felis fermentum eleifend et nec tellus. Phasellus scelerisque nec leo nec dignissim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc quis quam eget orci egestas cursus ac eget nibh. Aliquam erat volutpat. Etiam nec arcu commodo, pharetra magna sed, maximus est. Suspendisse potenti.");
+        jCheckBox1.setBorder(null);
+        jCheckBox1.setOpaque(false);
+        jCheckBox1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton7ActionPerformed(evt);
+                jCheckBox1ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 330, 290, 40));
-
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/login_register_design/form.png"))); // NOI18N
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 320, 320, -1));
+        jPanel1.add(jCheckBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 340, -1, -1));
 
         jButton8.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jButton8.setForeground(new java.awt.Color(27, 36, 49));
@@ -190,10 +185,6 @@ public class Login_Form extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton1ActionPerformed
-
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField1ActionPerformed
@@ -202,13 +193,17 @@ public class Login_Form extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton6ActionPerformed
 
-    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton7ActionPerformed
-
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton8ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jCheckBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -227,33 +222,33 @@ public class Login_Form extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Login_Form.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Register_Form.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Login_Form.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Register_Form.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Login_Form.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Register_Form.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Login_Form.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Register_Form.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(() -> {
-            new Login_Form().setVisible(true);
+            new Register_Form().setVisible(true);
         });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
+    private javax.swing.JCheckBox jCheckBox1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;

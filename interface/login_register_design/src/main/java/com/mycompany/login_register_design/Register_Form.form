@@ -24,7 +24,7 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="0" attributes="0">
+          <Group type="102" attributes="0">
               <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
               <Component id="jPanel1" min="-2" pref="741" max="-2" attributes="0"/>
               <EmptySpace pref="2104" max="32767" attributes="0"/>
@@ -91,7 +91,7 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="31" green="24" red="1b" type="rgb"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Entrar"/>
+            <Property name="text" type="java.lang.String" value="Registrar"/>
             <Property name="toolTipText" type="java.lang.String" value=""/>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
@@ -167,44 +167,27 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton7">
+        <Component class="javax.swing.JCheckBox" name="jCheckBox1">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Tahoma" size="24" style="0"/>
+              <Font name="Tahoma" size="14" style="0"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="31" green="24" red="1b" type="rgb"/>
+              <Color blue="cc" green="cc" red="cc" type="rgb"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Esqueci minha senha!"/>
-            <Property name="toolTipText" type="java.lang.String" value=""/>
+            <Property name="text" type="java.lang.String" value="Concordo com os Termos de Uso"/>
+            <Property name="actionCommand" type="java.lang.String" value="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lacinia tellus quis sem placerat eleifend. Nunc venenatis nunc consectetur volutpat cursus. Cras sem turpis, pellentesque nec cursus vitae, accumsan eu libero. Duis eu condimentum est. Etiam velit mi, placerat vitae commodo cursus, facilisis nec urna. Nunc egestas ut ante vel blandit. In quis ullamcorper massa.&#xa;&#xa;Morbi tempor dolor in justo ornare, id eleifend libero sollicitudin. Aenean pellentesque lectus id augue molestie suscipit. Donec in massa ac lacus fringilla lacinia. Suspendisse maximus sapien lacus, sit amet interdum ex ullamcorper vel. In nisl odio, accumsan at ligula eu, placerat semper sapien. Donec at euismod ipsum, sed tristique mi. Cras facilisis augue et erat eleifend sollicitudin. Phasellus nisl velit, ultricies sed purus at, sagittis gravida dolor. In posuere lobortis sapien, vel vehicula sem tincidunt vitae. Donec ut sem sed urna ornare malesuada nec at neque. Nullam nec ligula feugiat, dictum tellus a, euismod tortor. Morbi nisl odio, vehicula at accumsan et, fringilla ut quam.&#xa;&#xa;Donec fringilla, sapien sit amet placerat venenatis, elit justo sodales lectus, non condimentum libero orci in ligula. Vivamus elementum rhoncus mauris in tincidunt. Donec lectus libero, scelerisque nec ligula at, fermentum feugiat magna. Curabitur eget cursus metus, sed pharetra risus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur sed sodales libero, eu sagittis mauris. Sed a lorem bibendum, mollis erat eu, consectetur risus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In rutrum suscipit volutpat. Sed porta tellus eu nunc sollicitudin tristique. Nulla orci lacus, faucibus non congue eu, porta in sem. Sed placerat pulvinar eros non semper. Suspendisse lacinia ipsum a felis tincidunt tincidunt. Nullam nec euismod tellus.&#xa;&#xa;In vitae tempor purus. Ut sit amet metus diam. Morbi porttitor euismod odio, sit amet euismod risus. Sed in efficitur neque. In quam nunc, tincidunt ac commodo eu, aliquet sed est. Integer sed imperdiet arcu. Vestibulum sit amet mi tincidunt, pharetra dui vel, venenatis elit. Phasellus quis vulputate ipsum. Aenean viverra eros justo, vel interdum dui pretium vel. Sed nec turpis efficitur, imperdiet quam at, auctor libero. Etiam vitae mattis quam, quis pretium nunc.&#xa;&#xa;Proin id tincidunt sem, ac scelerisque metus. Aenean nec libero sit amet felis fermentum eleifend et nec tellus. Phasellus scelerisque nec leo nec dignissim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc quis quam eget orci egestas cursus ac eget nibh. Aliquam erat volutpat. Etiam nec arcu commodo, pharetra magna sed, maximus est. Suspendisse potenti."/>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-              <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
-                <BevelBorder>
-                  <Color PropertyName="highlightInner" blue="cc" green="cc" red="cc" type="rgb"/>
-                </BevelBorder>
-              </Border>
+              <Border info="null"/>
             </Property>
-            <Property name="borderPainted" type="boolean" value="false"/>
-            <Property name="contentAreaFilled" type="boolean" value="false"/>
+            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton7ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox1ActionPerformed"/>
           </Events>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="110" y="330" width="290" height="40"/>
-            </Constraint>
-          </Constraints>
-        </Component>
-        <Component class="javax.swing.JLabel" name="jLabel5">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/mycompany/login_register_design/form.png"/>
-            </Property>
-          </Properties>
-          <Constraints>
-            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="100" y="320" width="320" height="-1"/>
+              <AbsoluteConstraints x="90" y="340" width="-1" height="-1"/>
             </Constraint>
           </Constraints>
         </Component>
